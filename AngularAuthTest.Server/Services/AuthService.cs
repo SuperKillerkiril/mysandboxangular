@@ -54,8 +54,8 @@ public class AuthService
     {
         var email = _contextAccessor.HttpContext.User?.FindFirst(ClaimTypes.Email)?.Value;
         if (email == null)
-            return null;
+            return null!;
         
-        return await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+        return (await _context.Users.FirstOrDefaultAsync(u => u.Email == email))!;
     }
 }

@@ -7,6 +7,11 @@ interface WeatherForecast {
   temperatureF: number;
   summary: string;
 }
+interface AuthUser {
+  name: string;
+  email: string;
+  password: string;
+}
 
 @Component({
   selector: 'app-root',
@@ -16,11 +21,12 @@ interface WeatherForecast {
 })
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];
-
+  public uiVariable!: string;
   constructor(private http: HttpClient) {}
 
   ngOnInit() {
     this.getForecasts();
+    this.getAuthTest();
   }
 
   getForecasts() {
@@ -32,6 +38,11 @@ export class AppComponent implements OnInit {
         console.error(error);
       }
     );
+  }
+  getAuthTest() {
+    this.http.get('auth/test', { responseType: 'text' }).subscribe(data => {
+      this.uiVariable = data;
+    });
   }
 
   title = 'angularauthtest.client';

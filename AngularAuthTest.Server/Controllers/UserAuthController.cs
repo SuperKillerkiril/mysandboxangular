@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AngularAuthTest.Server.Controllers;
 
-[Route("auth/[controller]")]
+[Route("[controller]")]
 [ApiController]
 public class AuthController : ControllerBase
 {
@@ -42,6 +42,12 @@ public class AuthController : ControllerBase
             return BadRequest();
         
         return Ok();
+    }
+
+    [HttpGet(Name = "getauthuser")]
+    public async Task<User> getByEmail()
+    {
+        return await _authService.GetUserAsync();
     }
 
 
