@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngularAuthTest.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f174338a0dca1c4de125dc88c092f0b4cbde8f09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aef5c056bd3444e391ea7559738bd6a1f8eb1ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngularAuthTest.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngularAuthTest.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|c:\\users\\admin\\source\\repos\\angularauthtest\\angularauthtest.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|solutionrelative:angularauthtest.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|c:\\users\\admin\\source\\repos\\angularauthtest\\angularauthtest.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|solutionrelative:angularauthtest.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|c:\\users\\admin\\source\\repos\\angularauthtest\\angularauthtest.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|solutionrelative:angularauthtest.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|c:\\users\\admin\\source\\repos\\angularauthtest\\angularauthtest.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F93FE68D-446A-6665-84F0-248C7AD21E6E}|angularauthtest.client\\angularauthtest.client.esproj|solutionrelative:angularauthtest.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "angularauthtest.client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.ts*",
+              "RelativeToolTip": "angularauthtest.client\\src\\app\\app.component.ts*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwBoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-30T21:06:29.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.spec.ts",
+              "RelativeDocumentMoniker": "angularauthtest.client\\src\\app\\app.component.spec.ts",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.spec.ts",
+              "RelativeToolTip": "angularauthtest.client\\src\\app\\app.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-08-30T21:05:49.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "angularauthtest.client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "angularauthtest.client\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-08-30T21:05:47.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "angularauthtest.client\\src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\angularauthtest.client\\src\\app\\app.component.css",
+              "RelativeToolTip": "angularauthtest.client\\src\\app\\app.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-30T21:05:45.571Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

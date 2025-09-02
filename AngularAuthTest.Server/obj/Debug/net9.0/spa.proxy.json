@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53579",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\admin\\source\\repos\\AngularAuthTest\\AngularAuthTest.Server\\..\\angularauthtest.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

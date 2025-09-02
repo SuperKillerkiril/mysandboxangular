@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AngularAuthTest.Server.Controllers;
 
-[Route("[controller]")]
+[Route("api/[controller]")]
 [ApiController]
 public class AuthController : ControllerBase
 {
@@ -16,8 +16,9 @@ public class AuthController : ControllerBase
     {
         _authService = authService;
     }
-
-    [HttpPost("login")]//воход
+    
+    // POST: /api/auth/login
+    [HttpPost(Name = "login")]//воход
     public async Task<IActionResult> Login([FromBody] LoginModel model)
     {
         var success = await _authService.LoginAsync(model.Email, model.Password);
@@ -27,7 +28,7 @@ public class AuthController : ControllerBase
         return Ok();
     }
 
-    [HttpPost("logout")]//выход
+    [HttpPost(Name = "logout")]//выход
     public async Task<IActionResult> Logout()
     {
         await _authService.LogoutAsync();
@@ -51,7 +52,7 @@ public class AuthController : ControllerBase
     }
 
 
-    [HttpGet("test")]//я нихуя не понимаю
+    [HttpGet(Name = "test")]//я нихуя не понимаю
     public IActionResult Test()
     {
         return Ok("тест");

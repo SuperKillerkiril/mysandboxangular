@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "angularauthtest.client", "angularauthtest.client\angularauthtest.client.esproj", "{F93FE68D-446A-6665-84F0-248C7AD21E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularAuthTest.Server", "AngularAuthTest.Server\AngularAuthTest.Server.csproj", "{E2E6BA3B-F453-4E84-827C-49268E6BCF05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93FE68D-446A-6665-84F0-248C7AD21E6E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E2E6BA3B-F453-4E84-827C-49268E6BCF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E6BA3B-F453-4E84-827C-49268E6BCF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E6BA3B-F453-4E84-827C-49268E6BCF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E6BA3B-F453-4E84-827C-49268E6BCF05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66A6DDE5-C30E-4247-B300-C90D8B335027}
+	EndGlobalSection
+EndGlobal
