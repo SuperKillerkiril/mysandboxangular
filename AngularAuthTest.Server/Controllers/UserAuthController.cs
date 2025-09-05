@@ -17,7 +17,7 @@ public class AuthController : ControllerBase
         _authService = authService;
     }
     
-    // POST: /api/auth/login
+    /*// POST: /api/auth/login
     [HttpPost(Name = "login")]//воход
     public async Task<IActionResult> Login([FromBody] LoginModel model)
     {
@@ -43,13 +43,13 @@ public class AuthController : ControllerBase
             return BadRequest();
         
         return Ok();
-    }
+    }*/
 
-    [HttpGet(Name = "getauthuser")]
+    /*[HttpGet(Name = "getauthuser")]
     public async Task<User> getByEmail()
     {
         return await _authService.GetUserAsync();
-    }
+    }*/
 
 
     [HttpGet(Name = "test")]//я нихуя не понимаю

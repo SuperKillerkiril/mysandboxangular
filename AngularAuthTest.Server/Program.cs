@@ -1,28 +1,49 @@
+using AngularAuthTest.Server.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container.   
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiTestForAngularApp", Version = "v1" });
+});
+builder.Services.AddDbContext<Context>(); //Сервис доступа к контексту 
+
 
 var app = builder.Build();
 
-app.UseDefaultFiles();
-app.MapStaticAssets();
-
 // Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger(c =>
+    {
+        c.RouteTemplate = "new-path/swagger/{documentName}/swagger.json";
+    });
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/new-path/swagger/v1/swagger.json", "ApiTestForAngularApp v1");
+        c.RoutePrefix = "swagger"; 
+    });
 }
 
+
+app.UseDefaultFiles();
+app.MapStaticAssets();
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.MapFallbackToFile("/index.html");
+
+var scope = app.Services.CreateScope();
+var context = scope.ServiceProvider.GetRequiredService<Context>();
+context.Database.Migrate();
 
 app.Run();
